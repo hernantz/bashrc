@@ -2,4 +2,4 @@
 alias ..='cd ..'
 
 # List directories only
-alias d='ls -l | grep -E "^d"'
+alias d='tree -dL 1'
