@@ -108,6 +108,7 @@ fi
 
 # virtualenvwrapper settings
 export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_PATH=$HOME/devel
 source /usr/local/bin/virtualenvwrapper.sh
 
 # django autocompletion
