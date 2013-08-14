@@ -116,3 +116,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # Custom bash prompt via kirsle.net/wizards/ps1.html
 export PS1="\[$(tput bold)\]\u@\h \\$ \[$(tput setaf 4)\]\w \n> \[$(tput sgr0)\]"
+
+# autocompletion for git
+source ~/.git-completion.bash
